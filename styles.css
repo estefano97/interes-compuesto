@@ -1,0 +1,86 @@
+body{
+    font-family: sans-serif;
+    background-color: #040720;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.submit-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit{
+    margin: 1rem auto;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    background-color: #3FA0EF;
+    transition: .25s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background-color: #040720;
+    color: #3FA0EF;
+    outline: 1px solid #3FA0EF;
+}
+
+.form-item{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1.25rem 5rem;
+}
+
+.form-item > label{
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+.form-item > input{
+    border: none;
+    font-size: 1.5rem;
+    background-color: #040720;
+    color: white;
+    border-bottom: .2rem solid #3FA0EF;
+}
+
+.form-item > input::placeholder{
+    color: green;
+}
+
+.form-item > input:focus{
+    outline: none;
+}
+
+
+.valor-final{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.espacio-final{
+    margin-bottom: 50rem;
+}
+
+#myChart{
+    width: 100%;
+    padding: .25rem;
+    border: 1px solid #3FA0EF;
+    margin: auto;
+}
